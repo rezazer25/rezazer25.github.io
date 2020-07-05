@@ -1,1 +1,25 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.projectorskripsi",
+    "sha256_cert_fingerprints":
+    ["02:72:F9:BB:90:E1:76:AE:E6:00:96:C1:DB:F0:0C:A1:13:E1:53:B6:9F:71:D7:3C:F8:74:42:E0:71:E3:03:43"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://rezazer25.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.projectorskripsi",
+    "sha256_cert_fingerprints":
+    ["02:72:F9:BB:90:E1:76:AE:E6:00:96:C1:DB:F0:0C:A1:13:E1:53:B6:9F:71:D7:3C:F8:74:42:E0:71:E3:03:43"]
+  }
+}]
